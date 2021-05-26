@@ -1,0 +1,68 @@
+body {
+  background-color: #222831;
+  color: #ffffff;
+}
+
+.box {
+  width: 320px;
+  height: 600px;
+  background-color: black;
+  border-radius: 50px;
+  border: white 10px solid;
+  margin: 75px auto;
+  padding: 10px;
+}
+
+.notch {
+  background-color: #ffffff;
+  width: 160px;
+  height: 25px;
+  border-radius: 75px;
+  position: absolute;
+  top: 75px;
+  right: 640px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pic {
+  border-radius: 50%;
+  width: 35px;
+}
+.btn {
+  color: white;
+}
+.row {
+  text-align: center;
+}
+.today {
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+.tesla {
+  width: 275px;
+  border-radius: 25px 25px 0 0;
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+}
+.tab {
+  width: 275px;
+  height: 240px;
+  background-color: #30475e;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 25px auto;
+}
+.white {
+  color: white;
+}
+.scroll {
+  height: 65%;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+}
